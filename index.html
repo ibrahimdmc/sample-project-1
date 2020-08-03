@@ -1,20 +1,526 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>
-		index 1	
-	</title>
-	<link rel="stylesheet" href="">
-</head>
-<body>
-	<h1>This is HEADINGS in different sizes with the help oh h1 tag</h1>
-	<h2>This is HEADINGS in different sizes with the help oh h1 tag</h2>
-	<h3>This is HEADINGS in different sizes with the help oh h1 tag</h3>
-	<h4>This is HEADINGS in different sizes with the help oh h1 tag</h4>
-	<h5>This is HEADINGS in different sizes with the help oh h1 tag</h5>
-	<h6>This is HEADINGS in different sizes with the help oh h1 tag</h6>
+<html lang="en-US">
+    <head>
+        <title>
+            Tech Fever     
+ </title>
+        <meta charset="utf-8">
+    </head>
+    <!--Starting-Of-CSS-Codes-->
+    <style>
+        #outer{
+            width:100%;
+            height:1500px;
+            background-image: url("images/my background.jpg");
+            background-size: 100% 400px;
+            background-repeat: no-repeat;
+            border:1px solid #fffafa;
+            margin:0px;
+        }
 
-</body>
+        header{
+            width:99.8%;
+            height:100px;
+            margin-top: 150px;
+            text-align:center;
+            font-size:55px;
+            color:white;
+            text-shadow:2px 2px 2px black;
+            line-height:100px;
+            
+        }
+
+        body{
+            margin:0px;
+            padding:0px;
+        }
+        table{
+            width:100%;
+            height:70px;
+            margin-top:80px;
+            margin-collapse:collapse;
+            color:white;
+            background-color: black;
+        }
+        
+        #but1{
+            width:80px;
+            height:18px;
+            color:white;
+            font-size:small;
+            background-color:rgba(58, 56, 56, 0.753);
+            border-style:none;
+            box-shadow:0px 0px 5px white;
+        }
+        #but2{
+            width:80px;
+            height:18px;
+            color:white;
+            font-size:small;
+            background-color:rgba(58, 56, 56, 0.753);
+            border-style:none;
+            box-shadow:0px 0px 5px white;
+        }
+        #but3{
+            width:80px;
+            height:18px;
+            color:white;
+            font-size:small;
+            background-color:rgba(58, 56, 56, 0.753);
+            border-style:none;
+            box-shadow:0px 0px 5px ;
+        }
+        #but4{
+            width:100%;
+            background-color: #0ed145;
+            border-style:none;
+        }
+        #but5{
+            width:100%;
+            background-color: #0ed145;
+            border-style:none;
+        }
+        #but1:hover{
+            background-color: #43b627;
+        }
+        #but2:hover{
+            background-color: rgb(243, 52, 52);
+        }
+        #but3:hover{
+            background-color:#00a8f3;
+        }
+        #but4:hover{
+            background-color:#00a8f3;
+            border-style:none;
+            transition:0.3s;
+        }
+        #but5:hover{
+            background-color:#00a8f3;
+            border-style:none;
+            transition:0.3s;
+        }
+        
+        #butt2{
+            width:110px;
+            height:45px;
+            color:white;
+            font-size:small;
+            background-color:black;
+            border-style:none;
+            box-shadow:0px 0px 5px white;
+        }
+        #butt2:hover{
+            box-shadow:0px 0px 4px silver;
+            width:112px;
+            height:40px;
+            border-bottom:4px solid rgb(2, 255, 56);
+        }
+
+        #butt3{
+            width:108px;
+            height:39px;
+            color:white;
+            font-size:small;
+            background-color:black;
+            border-style:none;
+            box-shadow:0px 0px 5px white;
+        }
+
+        #butt4{
+            width:48px;
+            height:39px;
+            color:white;
+            font-size:small;
+            background-color:black;
+            border-style:none;
+            box-shadow:0px 0px 5px white;
+        }
+
+        #butt5{
+            width:48px;
+            height:39px;
+            color:white;
+            font-size:small;
+            background-color:black;
+            border-style:none;
+            box-shadow:0px 0px 5px white;
+        }
+
+        ul{
+            list-style:none;
+            padding:0px;
+            margin:0px;
+            border:1px solid black;
+            padding-top:20px;
+            padding-bottom:20px;
+            background-color:#313630;
+        }
+        li{
+            display:inline-block;
+            padding:10px;
+            width:80px;
+            margin-left:10px;
+            text-align:center;
+            font-family:calibri;
+        }
+        li:hover{
+            width:90px;
+            background-color:rgb(46, 187, 10);
+            transition:0.4s;
+            box-shadow:0px 0px 10px silver;
+            color:black;
+        }
+        a{
+            text-decoration: none;
+            font-weight:bold;
+            color:white;
+        }
+
+
+
+
+        #inner1{
+            width:23%;
+            height:250px;
+            text-align:center;
+            float:left;
+            margin:12px;
+            box-shadow:0px 5px 10px #dadada;
+        }
+        #inner2{
+            width:23%;
+            height:250px;
+            text-align:center;
+            float:left;
+            margin:12px;
+            box-shadow:0px 5px 10px #dadada;
+        }
+        #inner3{
+            width:23%;
+            height:250px;
+            text-align:center;
+            float:left;
+            margin:12px;
+            box-shadow:0px 5px 10px #dadada;
+        }
+        #inner4{
+            width:23%;
+            height:250px;
+            text-align:center;
+            float:left;
+            margin:12px;
+            box-shadow:0px 5px 10px #dadada;
+        }
+        #inner5{
+            width:48%;
+            height:250px;
+            text-align:center;
+            float:left;
+            margin:12px;
+            box-shadow:0px 5px 10px #dadada;
+        }
+        #inner6{
+            width:48%;
+            height:250px;
+            text-align:center;
+            float:left;
+            margin:12px;
+            box-shadow:0px 5px 10px #dadada;
+        }
+        #inner7{
+            width:23%;
+            height:250px;
+            text-align:center;
+            float:left;
+            margin:12px;
+            box-shadow:0px 5px 10px #dadada;
+        }
+        #inner8{
+            width:23%;
+            height:250px;
+            text-align:center;
+            float:left;
+            margin:12px;
+            box-shadow:0px 5px 10px #dadada;
+        }
+        #inner9{
+            width:23%;
+            height:250px;
+            text-align:center;
+            float:left;
+            margin:12px;
+            box-shadow:0px 5px 10px #dadada;
+        }
+        #inner10{
+            width:23%;
+            height:250px;
+            text-align:center;
+            float:left;
+            margin:12px;
+            box-shadow:0px 5px 10px #dadada;
+        }
+
+        #image1{
+            width:96%;
+            height:150px;
+            margin-left:5px;
+            margin-top:5px;
+            background-image: url("home cards images/1.jpg");
+            background-size: 96% 150px;
+
+        }
+        #image2{
+            width:96%;
+            height:150px;
+            margin-left:5px;
+            margin-top:5px;
+            background-image: url("home cards images/2.jpg");
+            background-size: 96% 150px;
+
+        }
+        #image3{
+            width:96%;
+            height:150px;
+            margin-left:5px;
+            margin-top:5px;
+            background-image: url("home cards images/3.jpg");
+            background-size: 96% 140px;
+
+        }
+        #image4{
+            width:96%;
+            height:150px;
+            margin-left:5px;
+            margin-top:5px;
+            background-image: url("home cards images/4.jpg");
+            background-size: 96% 140px;
+
+        }
+        #image5{
+            width:98%;
+            height:150px;
+            margin-left:5px;
+            margin-top:5px;
+            background-image: url("home cards images/5.jpg");
+            background-size: 96% 140px;
+
+        }
+        #image6{
+            width:98%;
+            height:150px;
+            margin-left:5px;
+            margin-top:5px;
+            background-image: url("home cards images/6.png");
+            background-size: 96% 140px;
+
+        }
+        #image7{
+            width:96%;
+            height:150px;
+            margin-left:5px;
+            margin-top:5px;
+            background-image: url("home cards images/7.png");
+            background-size: 96% 140px;
+
+        }
+        #image8{
+            width:96%;
+            height:150px;
+            margin-left:5px;
+            margin-top:5px;
+            background-image: url("home cards images/8.jpg");
+            background-size: 96% 140px;
+
+        }
+        #image9{
+            width:96%;
+            height:150px;
+            margin-left:5px;
+            margin-top:5px;
+            background-image: url("home cards images/9.jpeg");
+            background-size: 96% 140px;
+
+        }
+        #image10{
+            width:96%;
+            height:150px;
+            margin-left:5px;
+            margin-top:5px;
+            background-image: url("home cards images/10.jpg");
+            background-size: 96% 150px;
+
+        }
+        #inner1:hover{
+            box-shadow:6px 9px 14px #c4ff0e;
+            transition:0.4s;
+        }
+        #inner2:hover{
+            box-shadow:6px 9px 14px #c4ff0e;
+            transition:0.4s;
+        }
+        #inner3:hover{
+            box-shadow:6px 9px 14px #c4ff0e;
+            transition:0.4s;
+        }
+        #inner4:hover{
+            box-shadow:6px 9px 14px #c4ff0e;
+            transition:0.4s;
+        }
+        #inner5:hover{
+            box-shadow:6px 9px 14px #c4ff0e;
+            transition:0.4s;
+        }
+        #inner6:hover{
+            box-shadow:6px 9px 14px #c4ff0e;
+            transition:0.4s;
+        }
+        #inner7:hover{
+            box-shadow:6px 9px 14px #c4ff0e;
+            transition:0.4s;
+        }
+        #inner8:hover{
+            box-shadow:6px 9px 14px #c4ff0e;
+            transition:0.4s;
+        }
+        #inner9:hover{
+            box-shadow:6px 9px 14px #c4ff0e;
+            transition:0.4s;
+        }
+        #inner10:hover{
+            box-shadow:6px 9px 14px #c4ff0e;
+            transition:0.4s;
+        }
+        
+        footer{
+            width:100%;
+            height:30px;
+            background-color:black;
+            text-align:right;
+            font-size:15px;
+            color:white;
+            margin-top:40px;
+        }
+ 
+
+
+
+
+
+
+
+        
+
+    </style>
+    <!--Ending-Of-CSS-Codes-->
+    <body>
+        <div id="outer">
+            <header>
+                Tech Forever"/"                
+            </header>
+            <table width="100%" height="70px" style="margin-top:80px;">
+                <tr>
+                    <td align="left" >
+                        <button id="but1" ><a href="#" >HowtoTech</a></button>
+                        <button id="but2" ><a href="#">YouTube</a></button>
+                        <button id="but3" style="width:110px;"><a href="#">Tech Forever</a></button>
+                    </td>
+                    <td>
+                        <button id="but4" ><a href="login/login-page.html">LOGIN</a></button>
+                    </td>
+                    <td colspan="4">
+                        <!--Sign-Up-Pending-->
+                        <button id="but5" ><a href="#">SIGNUP</a></button>
+                    </td>
+                </tr>
+                <tr >
+                    <td height="40px" style="background-color:black;margin-left:10px;">
+                        <button id="butt2"><a href="#"> Forum</a></button>
+                        <button id="butt2"><a href="#"> Linux</a></button>
+                        <button id="butt2"><a href="#"> Networking</a></button>
+                        <button id="butt2"><a href="#"> Programming</a></button>
+                        <button id="butt2"><a href="#"> Hacking</a></button>
+                        <button id="butt2"><a href="#"> Blogging</a></button>
+                        <button id="butt2"><a href="#"> Freelancing</a></button>
+                        <button id="butt2"><a href="#"> Tutorials</a></button>
+                    </td>
+                    <td width="110px" style="background-color:black;">
+                        
+                        <button id="butt3">FOLLOW ME</button>
+                    </td>
+                    <td width="50px" style="background-color:black;">
+                        <button id="butt4"><a href="#"> F</a></button>
+                    </td>
+                    <td width="50px" style="background-color:black;">
+                        <button id="butt5"><a href=""> T</a></button>
+                    </td>
+                </tr>
+            </table>
+            <div style="border:1px solid black;">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div><br>
+            <div id="inner1">
+                <div id="image1"></div><br><br>
+                READ MORE
+            </div>
+            <div id="inner2">
+                <div id="image2"></div><br><br>
+                HTML & CSS
+            </div>
+            <div id="inner3">
+                <div id="image3"></div><br><br>
+                WEB DEVELOPMENT
+            </div>
+            <div id="inner4">
+                <div id="image4"></div><br><br>
+                JAVASCRIPT
+            </div>
+            <div id="inner5">
+                <div id="image5"></div><br><br>
+                KALI LINUX
+            </div>
+            <div id="inner6">
+                <div id="image6"></div><br><br>
+                SEARCH ENGINE OPTIMIZATION
+            </div >
+            <div id="inner7">
+                <div id="image7"></div><br><br>
+                MACHINE LEARNING
+            </div>
+            <div id="inner8">
+                <div id="image8"></div><br><br>
+                RASPBERRY PIE PROJECTS
+            </div>
+            <div id="inner9">
+                <div id="image9"></div><br><br>
+                ARDUINO PROJECTS
+            </div>
+            <div id="inner10">
+                <div id="image10"></div><br><br>
+                INTERNET OF THINGS(IOT)
+            </div>
+
+        
+        </div>
+        <footer>
+            DESIGNED AND DEVELOPED BY -- MOHAMMED IBRAHIM DMC
+        </footer>
+
+
+        <!--JavaScript-Codes-Starting-->
+
+        <script>
+            
+
+            //this area is for js codes
+
+
+
+        </script>
+    </body>
 </html>
