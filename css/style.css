@@ -1,7 +1,7 @@
 #outer{
             width:100%;
             height:1500px;
-            background-image: url("images/my background.jpg");
+            background-image: url("../images/my-background.jpg");
             background-size: 100% 400px;
             background-repeat: no-repeat;
             border:1px solid #fffafa;
@@ -255,7 +255,7 @@
             height:150px;
             margin-left:5px;
             margin-top:5px;
-            background-image: url("home cards images/1.jpg");
+            background-image: url("../images/home cards images/1.jpg");
             background-size: 96% 150px;
 
         }
@@ -264,7 +264,7 @@
             height:150px;
             margin-left:5px;
             margin-top:5px;
-            background-image: url("home cards images/2.jpg");
+            background-image: url("../images/home cards images/2.jpg");
             background-size: 96% 150px;
 
         }
@@ -273,7 +273,7 @@
             height:150px;
             margin-left:5px;
             margin-top:5px;
-            background-image: url("home cards images/3.jpg");
+            background-image: url("../images/home cards images/3.jpg");
             background-size: 96% 140px;
 
         }
@@ -282,7 +282,7 @@
             height:150px;
             margin-left:5px;
             margin-top:5px;
-            background-image: url("home cards images/4.jpg");
+            background-image: url("../images/home cards images/4.jpg");
             background-size: 96% 140px;
 
         }
@@ -291,7 +291,7 @@
             height:150px;
             margin-left:5px;
             margin-top:5px;
-            background-image: url("home cards images/5.jpg");
+            background-image: url("../images/home cards images/5.jpg");
             background-size: 96% 140px;
 
         }
@@ -300,7 +300,7 @@
             height:150px;
             margin-left:5px;
             margin-top:5px;
-            background-image: url("home cards images/6.png");
+            background-image: url("../images/home cards images/6.png");
             background-size: 96% 140px;
 
         }
@@ -309,7 +309,7 @@
             height:150px;
             margin-left:5px;
             margin-top:5px;
-            background-image: url("home cards images/7.png");
+            background-image: url("../images/home cards images/7.png");
             background-size: 96% 140px;
 
         }
@@ -318,7 +318,7 @@
             height:150px;
             margin-left:5px;
             margin-top:5px;
-            background-image: url("home cards images/8.jpg");
+            background-image: url("../images/home cards images/8.jpg");
             background-size: 96% 140px;
 
         }
@@ -327,7 +327,7 @@
             height:150px;
             margin-left:5px;
             margin-top:5px;
-            background-image: url("home cards images/9.jpeg");
+            background-image: url("../images/home cards images/9.jpeg");
             background-size: 96% 140px;
 
         }
@@ -336,7 +336,7 @@
             height:150px;
             margin-left:5px;
             margin-top:5px;
-            background-image: url("home cards images/10.jpg");
+            background-image: url("../images/home cards images/10.jpg");
             background-size: 96% 150px;
 
         }
